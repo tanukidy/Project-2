@@ -1,0 +1,197 @@
+body {
+  font-family: Roboto, arial;
+  margin: 0;
+}
+
+.checkout-title {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+
+.checkout-grid {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  column-gap: 12px;
+  align-items: start;
+}
+main {
+  margin: 140px auto 100px auto;
+  padding: 0px 30px 0px 30px;
+}
+
+.checkout-container {
+  border: 1px solid rgb(222, 222, 222);
+  border-radius: 4px;
+  padding: 18px;
+  margin-bottom: 12px;
+}
+
+.checkout-delivery-date {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+  font-size: 19px;
+  margin-top: 5px;
+  margin-bottom: 22px;
+}
+
+.cart-item-grid {
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr;
+  column-gap: 25px;
+}
+
+.product-image {
+  width: 100%;
+}
+
+.product-name {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.product-price {
+  color: rgb(177, 39, 4);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+
+
+.product-quantity .link-primary {
+  font-size: 15px;
+  margin-left: 3px;
+  color: #017cb6;
+  cursor: pointer;
+}
+
+.product-quantity .link-primary:hover {
+  color: rgb(170, 54, 54);
+}
+
+.quantity-input {
+  width: 30px;
+  display: none;
+}
+
+.save-quantity-link {
+  display: none;
+}
+
+.is-editing-quantity .quantity-input {
+  display: initial;
+}
+
+.is-editing-quantity .save-quantity-link {
+  display: initial;
+}
+
+.is-editing-quantity .quantity-label {
+  display: none;
+}
+
+.is-editing-quantity .update-quantity-link {
+  display: none;
+}
+
+.delivery-option-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.delivery-option {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.delivery-option-input {
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+.delivery-option-date {
+  color: rgb(0, 118, 0);
+  margin-bottom: 3px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.delivery-option-price {
+  color: rgb(120, 120, 120);
+  font-size: 15px;
+}
+
+.payment-summary {
+  border: 1px solid rgb(222, 222, 222);
+  border-radius: 4px;
+  padding: 18px;
+  padding-bottom: 5px;
+}
+
+.payment-summary-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.payment-summary-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  font-size: 15px;
+  margin-bottom: 9px;
+}
+
+.payment-summary-money{
+  text-align: right;
+}
+
+.subtotal-row .payment-summary-money {
+  border-top: 1px solid rgb(222, 222, 222);
+}
+
+.subtotal-row div{
+  padding-top: 9px;
+}
+
+.total-row {
+  color: rgb(177, 39, 4);
+  font-weight: 700;
+  font-size: 18px;
+  border-top: 1px solid rgb(222, 222, 222);
+  padding-top: 18px;
+}
+
+.paypal-toggle {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.paypal-toggle-input {
+ cursor: pointer;
+ display: inline;
+ height: 20px;
+ width: 20px;
+ margin-left: 10px; 
+}
+
+.place-order-button {
+  width: 100%;
+  padding: 12px 0px 12px 0px;
+  border-radius: 8px;
+  margin: 20px 0px 19px 0px;
+}
+
+.button-primary {
+  background-color: rgb(255, 216, 20);
+  border: 1px solid rgb(252, 210, 0);
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5)
+}
+
+.button-primary:hover {
+  background-color: rgb(240, 202, 14);
+}
